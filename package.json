@@ -1,0 +1,54 @@
+{
+  "name": "rick-morty-vue",
+  "description": "This is a tecnical test",
+  "version": "1.0.0",
+  "author": "César Rincón Muñoz <c3z4r.rincon@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "serve --single"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bulma": "^0.9.4",
+    "serve": "^14.0.1",
+    "vue": "^2.5.11",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^3.6.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^28.1.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "cypress": "^10.6.0",
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "file-loader": "^1.1.4",
+    "jest": "^28.1.3",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.54.5",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
